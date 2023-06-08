@@ -293,25 +293,41 @@ aside{
     /*================Sobre-mim ================*/
 
     .image img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
         width: 350px;
         height: auto;
         text-align: center;
         flex-direction: column;
         order: -1;
+        align-items: center;
     }
 
 
 
     .Sobre-mim p{
         font-size: 12px;
-        width: 100%;
+        width: 90%;
+        max-width: 90%;
         padding: 15px;
         text-align: center;
+        align-items: center;
+        flex-direction: column;
+        order: -2;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .Sobre-mim button{
-        margin-top: 50px;
+        margin-top: 70px;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        order: -3;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -351,7 +367,7 @@ aside{
 
 .C-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between ;
     margin-top: 15%;
     text-align: center;
     flex-wrap: wrap;
@@ -363,7 +379,7 @@ aside{
     padding: 50px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     width: 300px;
-    height: 300px;
+    height: auto;
    
 }
 
@@ -372,13 +388,8 @@ aside{
     height: auto;
 }
 
-.C-card-2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-    text-align: center;
-    flex-wrap: wrap;
-}
+
+
 .Card h3{
     font-size: 20px;
     font-family: "Inria Sans";
