@@ -222,32 +222,31 @@ aside{
 
 
 .C-sobre{
+    align-items: center;
     display: flex;
-    justify-content: space-around;
-    padding: 150px 0px;
-    width: 90%;
-    flex-wrap: wrap;
-    
-
+    text-align: center;
+    margin-left: 140px;
 }
 
 .image img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    display: block;
+    margin: 40px;
+    flex-basis: 40%;
 }
 
 
 .Sobre-mim h1{
-
-     text-align: center;
     font-size: 55px;
     font-family: "Inter";
     font-weight: bold;
+    flex-basis: 60%;
 }
 
 .Sobre-mim h4{
-    text-align: center;
     margin-top: 30px;
     font-size: 25px;
     font-weight: normal;
@@ -257,18 +256,18 @@ aside{
 
 .Sobre-mim span{
     color: rgb(78, 89, 189);
-}
+ }
 
 .Sobre-mim p{
     margin-top: 25px;
     font-family: "Inria Sans";
-
+    flex-basis: 60%;
+    max-width: 600px;
 }
 
 .Sobre-mim button{
     background-color: rgb(78, 89, 189);
-    margin-left: 35%;
-    margin-top: 30px;
+    margin: 10%;
     padding: 10px 50px;
     border: none;
     font-size: 20px;
@@ -277,20 +276,24 @@ aside{
     cursor: pointer;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     transition-duration: .9s;
-
 }
 
 .Sobre-mim button:hover{
     color: rgb(78, 89, 189);
     transform: translate(0.9);
     transition: 0.8s;
-    background: transparent;
-    
+    background: transparent;  
+    flex-wrap: nowrap;
 }
 
 @media only screen and (max-width: 768px){
 
     /*================Sobre-mim ================*/
+
+    .C-sobre{
+        flex-direction: column;
+        margin-left: auto;
+    }
 
     .image img{
         display:block;
@@ -302,6 +305,7 @@ aside{
         flex-direction: column;
         order: -1;
         align-items: center;
+        
     }
 
 
