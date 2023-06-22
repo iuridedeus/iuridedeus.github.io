@@ -24,9 +24,12 @@
     background-position: right;
     background-size: cover;
     background-attachment: fixed;
-    height: 702.8px;
     width: 100%;
-    max-width:100%;
+    height: auto;
+
+
+    
+    
    
     
 }
@@ -110,7 +113,7 @@ aside{
 
 .main-title h1{
     font-size: 70px;
-    color: #fff;
+    color: #ffffff79;
     margin-top: 15%;
     font-family: "Poppins";
     font-weight: bold;
@@ -120,7 +123,7 @@ aside{
 }
 
 .main-title h2{
-    color: rgb(78, 89, 189);
+    color: rgba(78, 89, 189, 0.685);
     font-size: 50px;
     font-family: "Hanuman";
     font-weight: bold;
@@ -148,6 +151,7 @@ aside{
     font-family:"Inter" ;
     cursor: pointer;
     transition-duration: .9s;
+    margin-bottom: 30px;
    
 }
 
@@ -191,7 +195,9 @@ aside{
     /*====================Inicio====================*/
     .Section-1-bg{
         width: 100%;
-        height: 702.8px;
+        height: auto;
+        overflow-y: hidden;
+        
     }
     
     .main-title h1{
@@ -226,6 +232,8 @@ aside{
     display: flex;
     text-align: center;
     margin-left: 140px;
+    margin-right: 140px;
+    
 }
 
 .image img{
@@ -263,6 +271,7 @@ aside{
     font-family: "Inria Sans";
     flex-basis: 60%;
     max-width: 600px;
+    margin-left: 40px;
 }
 
 .Sobre-mim button{
@@ -293,12 +302,17 @@ aside{
     .C-sobre{
         flex-direction: column;
         margin-left: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .image img{
         display:block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10%;
+        margin-right: 10%;
         width: 350px;
         height: auto;
         text-align: center;
