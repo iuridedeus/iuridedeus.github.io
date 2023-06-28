@@ -233,10 +233,8 @@ aside {
     align-items: center;
     display: flex;
     text-align: center;
-    margin-left: 140px;
-    margin-right: 140px;
-
-
+    background-image: linear-gradient(to right,#979494, #f3eeee 70% );
+    background-size: cover;
 }
 
 .image img {
@@ -248,7 +246,6 @@ aside {
     margin: 40px;
     flex-basis: 40%;
 }
-
 
 .Sobre-mim h1 {
     font-size: 55px;
@@ -275,6 +272,9 @@ aside {
     flex-basis: 60%;
     max-width: 600px;
     margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
 }
 
 .Sobre-mim button {
@@ -308,20 +308,18 @@ aside {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-left: 10%;
-        margin-right: 10%;
+
     }
 
     .image img {
         display: block;
-        margin-left: 10%;
-        margin-right: 10%;
         width: 350px;
         height: auto;
         text-align: center;
         flex-direction: column;
         order: -1;
         align-items: center;
+       
 
     }
 
@@ -358,7 +356,8 @@ aside {
 
 .Container {
     width: 100%;
-    background-color: #F3EEEE;
+    background-image: linear-gradient(to right,#979494, #f3eeee 70% );
+    background-size: cover;
     padding: 50px;
     overflow-y: hidden;
 
@@ -398,7 +397,8 @@ aside {
 
 
 .Card {
-    background-color: #FFFBFB;
+    background-image: linear-gradient(to right,#e4dfdf, #f8f2f2 70% );
+    
     padding: 50px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     width: 300px;
@@ -422,7 +422,7 @@ aside {
 .Card h4 {
     font-family: "Inria Sans";
     font-weight: lighter;
-    color: #BEB7B7;
+    color: #5e5b5b;
     margin-top: 15px;
 }
 
@@ -452,7 +452,8 @@ aside {
 
 .C-projetos {
     width: 100%;
-    background-color: #fff;
+    background-image: linear-gradient(to right,#979494, #f3eeee 70% );
+    background-size: cover;
     padding: 30px;
     overflow-y: hidden;
 }
