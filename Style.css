@@ -372,6 +372,7 @@ aside {
     font-family: "Inria Sans";
     font-weight: bold;
     padding-top: 12%;
+    
 }
 
 
@@ -397,15 +398,16 @@ aside {
 
 
 .Card {
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    box-shadow: 4px 4px 4px #7a7a7a, 4px 4px 4px #6e6e6e;
     width: 250px;
     height: 300px;
     text-align: center;
     align-items: center;
     overflow-y: hidden;
+    margin: 10px;
     
 }
 
@@ -422,12 +424,13 @@ aside {
     font-size: 20px;
     font-family: "Inria Sans";
     font-weight: 700;
+    color: rgb(0, 0, 0);
 }
 
 .Card h4 {
     font-family: "Inria Sans";
     font-weight: lighter;
-    color: #5e5b5b;
+    color: #464343;
     margin-top: 15px;
 }
 
@@ -445,6 +448,10 @@ aside {
     .Card {
         margin-top: 35px;
         margin-left: 30px;
+        padding: 10px;
+        height: 280px;
+        width: 190px;
+        
     }
 
     .C-card-2 {
@@ -495,10 +502,11 @@ aside {
 }
 
 .img-projetos img {
-    width: 90%;
+    width: 80%;
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     border-radius: 10px;
+    margin: 20px;
 
 }
 
